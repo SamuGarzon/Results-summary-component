@@ -5,6 +5,7 @@
 }
 
 :root {
+    --bg0-color: hsla(256, 72%, 46%, 1);
     --bg1-color: hsl(241, 81%, 54%);
     --bg2-color: hsl(252, 100%, 67%);
     --bg3-color: rgb(162, 130, 252);
@@ -65,7 +66,7 @@ body {
 .section__header--result p:last-child  {
     padding: 2rem 1rem;
     border-radius: 50%;
-    background: linear-gradient(to bottom, var(--bg3-color), var(--bg4-color));
+    background: linear-gradient(to bottom, var(--bg0-color), var(--bg4-color));
 }
 
 .section__header--result span:first-child {
